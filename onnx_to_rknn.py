@@ -241,9 +241,9 @@ if __name__ == '__main__':
     # Load ONNX model
     print('--> Loading model')
      ret = rknn.load_onnx(model=ONNX_MODEL, outputs=[
-        "outpu1",
+        "output1",
         "output2",
-        "outpu3",
+        "output3",
     ])
     if ret != 0:
         print('Load model failed!')
