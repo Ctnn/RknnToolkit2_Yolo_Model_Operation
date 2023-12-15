@@ -23,5 +23,10 @@ Inside the onnx_to_rknn.py file in the repository;
 - classes name
 - IMG_PATH
 - DATASET (we must specify the location of the test images as .txt extension)
+IMPORTANT : The Onnx model will be examined via netron and 3 outputs will be output before post-processing and the paths of this place will be taken.
+The variables must be updated via the ret variable.
+"output1",
+"output2",
+"output3"
 
 By updating these parameters you can get the .rknn model output.
